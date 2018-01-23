@@ -1,0 +1,23 @@
+remote_theme: gstamatelat/jekyll-docs
+
+baseurl: /jekyll-docs
+
+title: Jekyll Docs Theme
+
+menu:
+  Start here:
+    - /
+  Using:
+    - /config/
+    - /pages/
+  Demo:
+    - /table/
+    - /math/
+
+links:
+  github: https://github.com/gstamatelat/jekyll-docs
+
+
+# Custom Section
+
+version: 0.1
