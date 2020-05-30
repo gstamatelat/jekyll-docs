@@ -90,11 +90,11 @@
                 <li class="nav-item">
                     {% assign m = site.pages | where: "url", x | first %}
                     {% if m == null %}
-                    <a class="nav-link py-1 text-danger" href="#">NOT FOUND</a>
+                    <a class="nav-link py-2 text-danger" href="#">NOT FOUND</a>
                     {% elsif page.url == m.url %}
-                    <a class="nav-link py-1 active" href="{{site.baseurl}}{{m.url}}">{{m.title}}</a>
+                    <a class="nav-link py-2 active" href="{{site.baseurl}}{{m.url}}">{{m.title}}</a>
                     {% else %}
-                    <a class="nav-link py-1" href="{{site.baseurl}}{{m.url}}">{{m.title}}</a>
+                    <a class="nav-link py-2" href="{{site.baseurl}}{{m.url}}">{{m.title}}</a>
                     {% endif %}
                 </li>
                 {% endfor %}
